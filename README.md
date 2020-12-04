@@ -1,6 +1,7 @@
 # max-callstack-analysis
-an easy to use max stack usage analysis script written in Perl, improved version of avstack.pl.
-origin version written by Daniel Beer ##dlbeer@gmail.com https://dlbeer.co.nz/downloads/avstack.pl
+an easy to use max stack usage analysis script written in Perl, an improved version of avstack.pl.
+
+origin version written by Daniel Beer #dlbeer@gmail.com: https://dlbeer.co.nz/downloads/avstack.pl
 
 # sample output
 
