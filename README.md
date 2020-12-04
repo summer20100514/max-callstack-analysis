@@ -1,9 +1,19 @@
-# max-callstack-analysis
-an easy to use max stack usage analysis script written in Perl, an improved version of avstack.pl.
+# maximum call stack analysis
 
-origin version written by Daniel Beer #dlbeer@gmail.com: https://dlbeer.co.nz/downloads/avstack.pl
+an easy to use maximum stack usage analysis script written in Perl, an improved version of avstack.pl.
 
-# sample output
+origin version written by Daniel Beer https://dlbeer.co.nz/downloads/avstack.pl
+
+## improved features
+
+- show maximum **call stack chains** in readable format
+- more **accurate** stack size
+- add parsing of relocation R_ARM_THM_JUMP*
+
+## sample output
+
+```
+./armstack.pl pb_decode.c.o pb_common.c.o
 
   Func                                           Cost    Frame   Height
 ------------------------------------------------------------------------
@@ -313,3 +323,6 @@ The following functions were not resolved:
   realloc
   free
   memset
+
+```
+
