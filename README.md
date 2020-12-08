@@ -7,7 +7,6 @@ origin version written by Daniel Beer https://dlbeer.co.nz/downloads/avstack.pl
 ## improved features
 
 - show maximum **call stack chains** in readable format
-- more **accurate** stack size
 - add parsing of relocation R_ARM_THM_JUMP*
 
 ## sample output
